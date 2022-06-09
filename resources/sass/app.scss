@@ -38,7 +38,7 @@ a {
 .btn-primary-outline {
     @include button;
     border: 4px solid $primaryColor;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     &:hover {
         border: 4px solid transparent;
         box-shadow: inset 0 0 15px $primaryColor;

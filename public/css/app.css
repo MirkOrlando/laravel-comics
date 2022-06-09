@@ -15247,7 +15247,7 @@ a {
   text-transform: uppercase;
   transition: all 250ms linear;
   border: 4px solid #0282F9;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .btn-primary-outline:hover {

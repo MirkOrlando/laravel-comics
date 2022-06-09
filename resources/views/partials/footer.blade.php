@@ -63,14 +63,14 @@
             </div>
         </div>
     </div>
-    <div class="footer-bottom">
+    <div class="footer-bottom py-3">
         <div class="container">
             <div class="row jc-space-between ai-center pb-2 pt-2">
                 <div class="col">
                     <a href="#" class="btn-primary-outline">Sign-up now!</a>
                 </div>
                 <div class="col">
-                    <div class="social">
+                    <div class="social h-100">
                         <div class="text">follow us</div>
                         <div class="social-icons">
                             <img src="{{ asset('img/footer-facebook.png') }}" alt="" />
