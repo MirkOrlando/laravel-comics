@@ -1,2 +1,17 @@
 //
 @use 'bootstrap';
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+header {
+    ul {
+        li {
+            a {
+                text-transform: uppercase;
+            }
+        }
+    }
+}

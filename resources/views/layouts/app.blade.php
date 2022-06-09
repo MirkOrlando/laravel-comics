@@ -16,7 +16,7 @@
 
 <body>
 
-    {{-- @include('partials.header') --}}
+    @include('partials.header')
 
     <main>
         @yield('content')
