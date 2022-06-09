@@ -6,10 +6,16 @@
         <div class="container">
             <h2>Current series</h2>
             <div class="row">
-                <div class="comic-card">
-                    <div class="comic-cover">
+                @foreach ($comics as $comic)
+                    <div class="col">
+                        <div class="comic-card">
+                            <div class="comic-cover">
+                                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}" />
+                            </div>
+                            <div class="comic-title">{{ $comic['title'] }}</div>
+                        </div>
                     </div>
-                </div>
+                @endforeach
             </div>
             <div class="actions">
                 <a href="" class="btn-primary">Load more</a>
