@@ -7,15 +7,39 @@ a {
 }
 
 header {
-    #top_header {
+    .header-top {
         text-transform: uppercase;
         font-size: 0.8rem;
     }
-    ul {
-        li {
-            a {
-                text-transform: uppercase;
+    .header-bottom {
+        ul {
+            li {
+                a {
+                    text-transform: uppercase;
+                }
             }
+        }
+    }
+}
+
+footer {
+    .footer-top {
+        background-image: url("../img/footer-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: lightgrey;
+        h4 {
+            text-transform: uppercase;
+        }
+        a,
+        p {
+            font-size: 0.8rem;
+        }
+        .logo-lg {
+            background-image: url("../img/dc-logo-bg.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
     }
 }

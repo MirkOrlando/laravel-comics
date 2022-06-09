@@ -15221,12 +15221,35 @@ a {
   text-decoration: none;
 }
 
-header #top_header {
+header .header-top {
   text-transform: uppercase;
   font-size: 0.8rem;
 }
 
-header ul li a {
+header .header-bottom ul li a {
   text-transform: uppercase;
+}
+
+footer .footer-top {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: lightgrey;
+}
+
+footer .footer-top h4 {
+  text-transform: uppercase;
+}
+
+footer .footer-top a,
+footer .footer-top p {
+  font-size: 0.8rem;
+}
+
+footer .footer-top .logo-lg {
+  background-image: url(/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
