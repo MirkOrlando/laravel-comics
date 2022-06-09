@@ -15221,6 +15221,11 @@ a {
   text-decoration: none;
 }
 
+header #top_header {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
 header ul li a {
   text-transform: uppercase;
 }

@@ -1,4 +1,8 @@
 <header>
+    <div id="top_header" class="d-flex justify-content-end">
+        <div class="visa me-5">Dc power Visa<i class="fa fa-registered"></i></div>
+        <div class="sites">additional dc sites <i class="fa fa-chevron-down"></i></div>
+    </div>
     <nav class="d-flex align-items-center justify-content-between">
         <div class="logo">
             <img src="{{ asset('img/dc-logo.png') }}" alt="">
@@ -45,6 +49,7 @@
         </ul>
         <div class="searchbar">
             <input type="text">
+            <i class="fa fa-search"></i>
         </div>
     </nav>
 </header>
