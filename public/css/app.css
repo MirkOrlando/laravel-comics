@@ -13299,6 +13299,8 @@ header .header-top {
   text-transform: uppercase;
   font-size: 0.8rem;
   background-color: #0282F9;
+  color: white;
+  font-weight: bold;
 }
 header .header-bottom nav {
   height: 100%;
@@ -13330,9 +13332,24 @@ header .header-bottom nav ul li a:hover {
 header .header-bottom nav .searchbar {
   display: flex;
   align-items: center;
+  border-bottom: 3px solid #0282F9;
 }
 header .header-bottom nav .searchbar input {
   width: 100px;
+  border: none;
+  position: relative;
+}
+header .header-bottom nav .searchbar input:focus-visible {
+  outline: none;
+}
+header .header-bottom nav .searchbar .icon {
+  /*                   position: relative;
+                      &::before {
+                         content: 'Search';
+                         position: absolute;
+                         right: 100%;
+                     }
+  */
 }
 
 .hero {

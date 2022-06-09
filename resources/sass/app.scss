@@ -55,6 +55,8 @@ header {
         text-transform: uppercase;
         font-size: 0.8rem;
         background-color: $primaryColor;
+        color: $lightestColor;
+        font-weight: bold;
     }
     .header-bottom {
         nav {
@@ -90,8 +92,23 @@ header {
             .searchbar {
                 display: flex;
                 align-items: center;
+                border-bottom: 3px solid $primaryColor;
                 input {
                     width: 100px;
+                    border: none;
+                    position: relative;
+                    &:focus-visible {
+                        outline: none;
+                    }
+                }
+                .icon {
+                    /*                   position: relative;
+                     &::before {
+                        content: 'Search';
+                        position: absolute;
+                        right: 100%;
+                    }
+ */
                 }
             }
         }

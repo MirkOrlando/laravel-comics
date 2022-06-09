@@ -49,11 +49,13 @@
                             <a class="dropdown-item" href="#tab4Id">Action</a>
                         </div>
                     </li>
-                    <div class="searchbar">
-                        <input type="text">
+                </ul>
+                <div class="searchbar">
+                    <input type="text" placeholder="Search">
+                    <div class="icon">
                         <i class="fa fa-search"></i>
                     </div>
-                </ul>
+                </div>
             </nav>
         </div>
     </div>
