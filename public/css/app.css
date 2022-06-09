@@ -15264,6 +15264,14 @@ header .header-bottom ul li a {
   text-transform: uppercase;
 }
 
+.hero {
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 280px;
+}
+
 footer .footer-top {
   background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
   background-repeat: no-repeat;

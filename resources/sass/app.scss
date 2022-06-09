@@ -61,6 +61,14 @@ header {
     }
 }
 
+.hero {
+    background-image: url("../img/jumbotron.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 280px;
+}
+
 footer {
     .footer-top {
         background-image: url("../img/footer-bg.jpg");
