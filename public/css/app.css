@@ -13343,17 +13343,36 @@ header .header-bottom nav .searchbar input {
   height: 280px;
 }
 
-.comics {
-  background-color: #1C1C1C;
-  color: white;
-}
-
 h2 {
   display: inline-block;
   background-color: #0282F9;
   padding: 0.75rem 2rem;
   margin-top: -2rem;
   text-transform: uppercase;
+}
+
+.comics {
+  background-color: #1C1C1C;
+  color: white;
+}
+.comics .comic-card {
+  padding: 1rem 0.5rem;
+  transition: all 250ms linear;
+}
+.comics .comic-card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.comics .comic-card .comic-cover img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.comics .comic-card .comic-title {
+  padding-top: 0.5rem;
 }
 
 .actions {

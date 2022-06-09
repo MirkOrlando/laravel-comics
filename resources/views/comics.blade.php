@@ -5,14 +5,14 @@
     <section class="comics">
         <div class="container">
             <h2>Current series</h2>
-            <div class="row">
+            <div class="row row-cols-6">
                 @foreach ($comics as $comic)
                     <div class="col">
                         <div class="comic-card">
                             <div class="comic-cover">
-                                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}" />
+                                <img class="img-fluid" src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}" />
                             </div>
-                            <div class="comic-title">{{ $comic['title'] }}</div>
+                            <div class="comic-title">{{ $comic['series'] }}</div>
                         </div>
                     </div>
                 @endforeach
