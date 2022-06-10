@@ -13356,7 +13356,11 @@ header .header-bottom nav .searchbar .icon {
   height: 400px;
 }
 
-h2 {
+.comics {
+  background-color: #1C1C1C;
+  color: white;
+}
+.comics h2 {
   display: inline-block;
   font-size: 2rem;
   color: white;
@@ -13364,11 +13368,6 @@ h2 {
   padding: 0.75rem 2rem;
   margin-top: -2rem;
   text-transform: uppercase;
-}
-
-.comics {
-  background-color: #1C1C1C;
-  color: white;
 }
 .comics .comic-card {
   padding: 1rem 0.5rem;
@@ -13389,10 +13388,26 @@ h2 {
 .comics .comic-card .comic-title {
   padding-top: 0.5rem;
 }
-
-.actions {
+.comics .actions {
   padding: 0.5rem 0 2rem;
   text-align: center;
+}
+
+.thumb_block {
+  height: 80px;
+  background-color: #0282F9;
+}
+.thumb_block .thumb img {
+  margin-top: -15rem;
+}
+
+.comic h2,
+.comic h4 {
+  color: #003F5E;
+}
+
+.comic_bottom {
+  background-color: #F6F6F6;
 }
 
 .banner {

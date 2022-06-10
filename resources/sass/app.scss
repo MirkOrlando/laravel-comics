@@ -119,19 +119,18 @@ header {
     height: 400px;
 }
 
-h2 {
-    display: inline-block;
-    font-size: 2rem;
-    color: $lightestColor;
-    background-color: $primaryColor;
-    padding: 0.75rem 2rem;
-    margin-top: -2rem;
-    text-transform: uppercase;
-}
-
 .comics {
     background-color: $darkerColor;
     color: $lightestColor;
+    h2 {
+        display: inline-block;
+        font-size: 2rem;
+        color: $lightestColor;
+        background-color: $primaryColor;
+        padding: 0.75rem 2rem;
+        margin-top: -2rem;
+        text-transform: uppercase;
+    }
     .comic-card {
         padding: 1rem 0.5rem;
         transition: all 250ms linear;
@@ -151,11 +150,31 @@ h2 {
             padding-top: 0.5rem;
         }
     }
+    .actions {
+        padding: 0.5rem 0 2rem;
+        text-align: center;
+    }
 }
 
-.actions {
-    padding: 0.5rem 0 2rem;
-    text-align: center;
+.thumb_block {
+    height: 80px;
+    background-color: $primaryColor;
+    .thumb {
+        img {
+            margin-top: -15rem;
+        }
+    }
+}
+
+.comic {
+    h2,
+    h4 {
+        color: #003F5E;
+    }
+}
+
+.comic_bottom {
+    background-color: #F6F6F6;
 }
 
 .banner {

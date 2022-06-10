@@ -11,11 +11,11 @@
     </div>
     <section class="comic">
 
-        <div class="comic_top">
+        <div class="comic_top py-5">
             <div class="container">
                 <div class="metadata d-flex">
-                    <div class="details flex-grow-1">
-                        <h2>{{ $comic['title'] }}</h2>
+                    <div class="details flex-grow-1 py-4">
+                        <h2 class="text-uppercase">{{ $comic['title'] }}</h2>
                         <div class="info d-flex justify-content-between">
                             <div class="price">U.S. Price: {{ $comic['price'] }}</div>
                             <div class="availability d-flex">
@@ -35,7 +35,7 @@
             </div>
         </div>
 
-        <div class="comic_bottom">
+        <div class="comic_bottom py-4">
             <div class="container">
                 <div class="row row-cols-2">
                     <div class="col">
