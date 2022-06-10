@@ -14,12 +14,15 @@
         <div class="comic_top py-5">
             <div class="container">
                 <div class="metadata d-flex">
-                    <div class="details flex-grow-1 py-4">
+                    <div class="details flex-grow-1 py-4 pe-5">
                         <h2 class="text-uppercase">{{ $comic['title'] }}</h2>
-                        <div class="info d-flex justify-content-between">
-                            <div class="price">U.S. Price: {{ $comic['price'] }}</div>
-                            <div class="availability d-flex">
-                                <div class="text-uppercase">Availability</div>
+                        <div class="info mt-4 mb-3 d-flex justify-content-between align-items-center">
+                            <div class="price">
+                                <span class="light">U.S. Price:</span>
+                                <span>{{ $comic['price'] }}</span>
+                            </div>
+                            <div class="availability d-flex align-items-center">
+                                <div class="text-uppercase light">Availability</div>
                                 <button>Check Availability <i class="fa fa-chevron-down"></i></button>
                             </div>
                         </div>

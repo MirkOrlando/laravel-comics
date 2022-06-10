@@ -13405,8 +13405,28 @@ header .header-bottom nav .searchbar .icon {
 .comic h4 {
   color: #003F5E;
 }
-
-.comic_bottom {
+.comic .comic_top .info {
+  border-bottom: 2px solid #357739;
+  color: white;
+  background-color: #55BA59;
+}
+.comic .comic_top .info .light {
+  color: #B0FD9C;
+}
+.comic .comic_top .info .price {
+  padding-left: 1rem;
+}
+.comic .comic_top .info .availability div:first-child {
+  padding-right: 1rem;
+}
+.comic .comic_top .info button {
+  padding: 1rem;
+  background-color: transparent;
+  border: none;
+  border-left: 2px solid #357739;
+  color: white;
+}
+.comic .comic_bottom {
   background-color: #F6F6F6;
 }
 
