@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('custom-css')
+    <link rel="stylesheet" href="{{ asset('css/comic_show.css') }}">
+@endsection
+
 @section('content')
     <div class="hero"></div>
     <div class="thumb_block">
