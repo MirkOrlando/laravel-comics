@@ -71,8 +71,7 @@ header {
                     a {
                         color: $darkColor;
                         text-transform: uppercase;
-                        padding: 4rem 1rem;
-                        margin: 0 0.5rem;
+                        padding: 3rem 1rem;
                         height: 100%;
                         border-bottom: 6px solid transparent;
                         font-weight: bold;
@@ -158,6 +157,29 @@ h2 {
 .actions {
     padding: 0.5rem 0 2rem;
     text-align: center;
+}
+
+.banner {
+    background-color: $primaryColor;
+    color: $lightestColor;
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        transition: all 250ms linear;
+        cursor: pointer;
+        &:hover {
+            transform: translate(0, -10px);
+        }
+        img {
+            height: 50px;
+        }
+        .text {
+            text-transform: uppercase;
+            font-size: 0.8rem;
+        }
+    }
 }
 
 footer {
