@@ -90,6 +90,14 @@ $lightestColor: white;
             color: #00BAE6;
             line-height: 1rem;
         }
+        .artists>.values>.value::after,
+        .writers>.values>.value::after {
+            content: ',';
+        }
+        .artists>.values>.value:last-child::after,
+        .writers>.values>.value:last-child::after {
+            content: '';
+        }
     }
 }
 
@@ -116,7 +124,7 @@ $lightestColor: white;
                 transition: all 250ms linear;
                 cursor: pointer;
                 &:hover {
-                    transform: translate(0, -10px);
+                    transform: translate(0, -5px);
                 }
                 img {
                     height: 40px;

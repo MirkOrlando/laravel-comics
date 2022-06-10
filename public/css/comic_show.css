@@ -73,6 +73,14 @@
   color: #00BAE6;
   line-height: 1rem;
 }
+.comic .comic_bottom .artists > .values > .value::after,
+.comic .comic_bottom .writers > .values > .value::after {
+  content: ",";
+}
+.comic .comic_bottom .artists > .values > .value:last-child::after,
+.comic .comic_bottom .writers > .values > .value:last-child::after {
+  content: "";
+}
 
 .banner {
   border-top: 1px solid #E3E3E3;
@@ -99,7 +107,7 @@
   cursor: pointer;
 }
 .banner .row .col .wrapper:hover {
-  transform: translate(0, -10px);
+  transform: translate(0, -5px);
 }
 .banner .row .col .wrapper img {
   height: 40px;
