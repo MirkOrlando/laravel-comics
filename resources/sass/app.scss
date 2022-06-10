@@ -20,11 +20,6 @@ $lightestColor: white;
 
 /* common */
 
-.container {
-    width: 100%;
-    max-width: 1400px !important;
-}
-
 a {
     color: unset;
     text-decoration: none;
@@ -64,11 +59,12 @@ header {
             .logo {
                 display: flex;
                 align-items: center;
-                height: 100%;
+                width: 80px;
             }
             ul {
                 li {
                     a {
+                        font-size: 0.9rem;
                         color: $darkColor;
                         text-transform: uppercase;
                         padding: 3rem 0;
@@ -120,7 +116,7 @@ header {
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    height: 350px;
+    height: 400px;
 }
 
 h2 {
@@ -165,6 +161,7 @@ h2 {
 .banner {
     background-color: $primaryColor;
     color: $lightestColor;
+    font-size: 0.9rem;
     .wrapper {
         display: flex;
         justify-content: center;

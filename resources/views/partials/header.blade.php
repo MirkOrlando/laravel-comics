@@ -19,8 +19,8 @@
                             href="{{ route('characters') }}">Characters</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{ Route::currentRouteName() === 'comics' ? 'active' : '' }}"
-                            href="{{ route('comics') }}">Comics</a>
+                        <a class="nav-link {{ Route::currentRouteName() === 'comics.index' ? 'active' : '' }}"
+                            href="{{ route('comics.index') }}">Comics</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ Route::currentRouteName() === 'movies' ? 'active' : '' }}"

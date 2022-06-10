@@ -13257,11 +13257,6 @@ textarea.form-control-lg {
 
 /* variables */
 /* common */
-.container {
-  width: 100%;
-  max-width: 1400px !important;
-}
-
 a {
   color: unset;
   text-decoration: none;
@@ -13308,9 +13303,10 @@ header .header-bottom nav {
 header .header-bottom nav .logo {
   display: flex;
   align-items: center;
-  height: 100%;
+  width: 80px;
 }
 header .header-bottom nav ul li a {
+  font-size: 0.9rem;
   color: #303030;
   text-transform: uppercase;
   padding: 3rem 0;
@@ -13357,7 +13353,7 @@ header .header-bottom nav .searchbar .icon {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  height: 350px;
+  height: 400px;
 }
 
 h2 {
@@ -13402,6 +13398,7 @@ h2 {
 .banner {
   background-color: #0282F9;
   color: white;
+  font-size: 0.9rem;
 }
 .banner .wrapper {
   display: flex;
