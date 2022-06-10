@@ -15,35 +15,45 @@
                 </div>
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('characters') }}">Characters</a>
+                        <a class="nav-link {{ Route::currentRouteName() === 'characters' ? 'active' : '' }}"
+                            href="{{ route('characters') }}">Characters</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="{{ route('comics') }}">Comics</a>
+                        <a class="nav-link {{ Route::currentRouteName() === 'comics' ? 'active' : '' }}"
+                            href="{{ route('comics') }}">Comics</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('movies') }}">Movies</a>
+                        <a class="nav-link {{ Route::currentRouteName() === 'movies' ? 'active' : '' }}"
+                            href="{{ route('movies') }}">Movies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('tv') }}">Tv</a>
+                        <a class="nav-link {{ Route::currentRouteName() === 'tv' ? 'active' : '' }}"
+                            href="{{ route('tv') }}">Tv</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('games') }}">Games</a>
+                        <a class="nav-link {{ Route::currentRouteName() === 'games' ? 'active' : '' }}"
+                            href="{{ route('games') }}">Games</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('collectibles') }}">Collectibles</a>
+                        <a class="nav-link {{ Route::currentRouteName() === 'collectibles' ? 'active' : '' }}"
+                            href="{{ route('collectibles') }}">Collectibles</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('videos') }}">Videos</a>
+                        <a class="nav-link {{ Route::currentRouteName() === 'videos' ? 'active' : '' }}"
+                            href="{{ route('videos') }}">Videos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('fans') }}">Fans</a>
+                        <a class="nav-link {{ Route::currentRouteName() === 'fans' ? 'active' : '' }}"
+                            href="{{ route('fans') }}">Fans</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('news') }}">News</a>
+                        <a class="nav-link {{ Route::currentRouteName() === 'news' ? 'active' : '' }}"
+                            href="{{ route('news') }}">News</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="{{ route('shop') }}"
-                            role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
+                        <a class="nav-link {{ Route::currentRouteName() === 'shop' ? 'active' : '' }} dropdown-toggle"
+                            data-bs-toggle="dropdown" href="{{ route('shop') }}" role="button" aria-haspopup="true"
+                            aria-expanded="false">Shop</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#tab2Id">Action</a>
                             <a class="dropdown-item" href="#tab3Id">Another action</a>

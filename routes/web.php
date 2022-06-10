@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/homepage', function () {
+Route::get('/', function () {
     //dd($comics);
     return view('homepage');
 })->name('homepage');
@@ -23,7 +23,7 @@ Route::get('/characters', function () {
     return 'characters';
 })->name('characters');
 
-Route::get('/', function () {
+Route::get('/comics', function () {
     $comics = config('db.comics');
     //dd($comics);
     return view('comics', compact('comics'));
