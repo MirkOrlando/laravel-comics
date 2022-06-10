@@ -35,7 +35,7 @@
                         </p>
                     </div>
                     <div class="advertisement flex-shrink-0">
-                        <h5 class="text-uppercase text-end">advertisement</h5>
+                        <h6 class="text-uppercase text-end">advertisement</h6>
                         <img src="{{ asset('img/adv.jpg') }}" alt="">
                     </div>
                 </div>
