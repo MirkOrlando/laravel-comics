@@ -13,10 +13,10 @@
 
         <div class="comic_top">
             <div class="container">
-                <div class="row">
-                    <div class="col">
+                <div class="metadata d-flex">
+                    <div class="details flex-grow-1">
                         <h2>{{ $comic['title'] }}</h2>
-                        <div class="details d-flex justify-content-between">
+                        <div class="info d-flex justify-content-between">
                             <div class="price">U.S. Price: {{ $comic['price'] }}</div>
                             <div class="availability d-flex">
                                 <div class="text-uppercase">Availability</div>
@@ -27,7 +27,7 @@
                             {{ $comic['description'] }}
                         </p>
                     </div>
-                    <div class="col">
+                    <div class="advertisement flex-shrink-0">
                         <h5 class="text-uppercase text-end">advertisement</h5>
                         <img src="{{ asset('img/adv.jpg') }}" alt="">
                     </div>
