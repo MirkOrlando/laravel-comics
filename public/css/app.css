@@ -13361,6 +13361,7 @@ header .header-bottom nav .searchbar .icon {
 
 h2 {
   display: inline-block;
+  color: white;
   background-color: #0282F9;
   padding: 0.75rem 2rem;
   margin-top: -2rem;
