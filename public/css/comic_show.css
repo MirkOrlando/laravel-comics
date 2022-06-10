@@ -1,9 +1,33 @@
-.thumb_block {
+.primary_block {
   height: 80px;
   background-color: #0282F9;
 }
-.thumb_block .thumb img {
-  margin-top: -15rem;
+
+.thumb {
+  margin-top: -20rem;
+  text-transform: uppercase;
+  display: inline-block;
+  position: absolute;
+  border: 1px solid white;
+}
+.thumb .text_top {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.thumb .text_bottom {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+.thumb .text_top,
+.thumb .text_bottom {
+  padding: 0.1rem 0.25rem;
+  font-size: 0.75rem;
+  color: white;
+  background-color: #00A9D9;
 }
 
 .comic h2,
@@ -100,7 +124,7 @@
   padding-bottom: 1rem !important;
   border-left: 1px solid #E3E3E3;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-start;
   gap: 0.5rem;
   transition: all 250ms linear;
@@ -110,11 +134,12 @@
   transform: translate(0, -5px);
 }
 .banner .row .col .wrapper img {
-  height: 40px;
-  order: 0;
+  height: 50px;
   filter: brightness(0.8);
+  order: 1;
 }
 .banner .row .col .wrapper .text {
   text-transform: uppercase;
   font-weight: bold;
+  order: 0;
 }

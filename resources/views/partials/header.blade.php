@@ -1,8 +1,8 @@
 <header>
     <div class="header-top">
         <div class="container d-flex justify-content-end">
-            <div class="visa me-5">Dc power Visa<i class="fa fa-registered"></i></div>
-            <div class="sites">additional dc sites <i class="fa fa-chevron-down"></i></div>
+            <div class="visa me-5">Dc power Visa<i class="fa-regular fa-registered"></i></div>
+            <div class="sites">additional dc sites <i class="fa-solid fa-magnifying-glass"></i></div>
         </div>
     </div>
     <div class="header-bottom">

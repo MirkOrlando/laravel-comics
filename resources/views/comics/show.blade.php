@@ -6,11 +6,12 @@
 
 @section('content')
     <div class="hero"></div>
-    <div class="thumb_block">
-        <div class="container">
-            <div class="thumb">
-                <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
-            </div>
+    <div class="primary_block"></div>
+    <div class="container p-relative">
+        <div class="thumb">
+            <div class="text_top">comic book</div>
+            <img src="{{ $comic['thumb'] }}" alt="{{ $comic['series'] }}">
+            <div class="text_bottom">view gallery</div>
         </div>
     </div>
     <section class="comic">

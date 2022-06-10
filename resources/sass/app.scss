@@ -1,6 +1,9 @@
 //
 @use 'bootstrap';
-@import "node_modules/font-awesome/scss/font-awesome.scss";
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
 
 /* variables */
 
@@ -120,8 +123,6 @@ header {
 }
 
 .comics {
-    background-color: $darkerColor;
-    color: $lightestColor;
     h2 {
         display: inline-block;
         font-size: 2rem;
@@ -131,6 +132,8 @@ header {
         margin-top: -2rem;
         text-transform: uppercase;
     }
+    background-color: $darkerColor;
+    color: $lightestColor;
     .comic-card {
         padding: 1rem 0.5rem;
         transition: all 250ms linear;
