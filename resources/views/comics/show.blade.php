@@ -38,12 +38,12 @@
             </div>
         </div>
 
-        <div class="comic_bottom py-4">
+        <div class="comic_bottom">
             <div class="container">
                 <div class="row row-cols-2">
                     <div class="col">
                         <h4>Talent</h4>
-                        <div class="artists d-flex">
+                        <div class="artists d-flex align-items-baseline">
                             <div class="key">Art by:</div>
                             <div class="values">
                                 @forelse ($comic['artists'] as $artist)
@@ -53,7 +53,7 @@
                                 @endforelse
                             </div>
                         </div>
-                        <div class="writers d-flex">
+                        <div class="writers d-flex align-items-baseline">
                             <div class="key">Written by:</div>
                             <div class="values">
                                 @forelse ($comic['writers'] as $writer)
@@ -67,19 +67,19 @@
                     </div>
                     <div class="col">
                         <h4>Specs</h4>
-                        <div class="series d-flex">
+                        <div class="series d-flex align-items-center">
                             <div class="key">Series:</div>
                             <div class="values">
-                                <span class="value">{{ $comic['series'] }}</span>
+                                <span class="value text-uppercase">{{ $comic['series'] }}</span>
                             </div>
                         </div>
-                        <div class="price d-flex">
+                        <div class="price d-flex align-items-center">
                             <div class="key">U.S. Price:</div>
                             <div class="values">
                                 <span class="value">{{ $comic['price'] }}</span>
                             </div>
                         </div>
-                        <div class="sale_date d-flex">
+                        <div class="sale_date d-flex align-items-center">
                             <div class="key">Pn Sale Date:</div>
                             <div class="values">
                                 <span class="value">{{ $comic['sale_date'] }}</span>

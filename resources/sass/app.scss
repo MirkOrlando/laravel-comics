@@ -168,8 +168,14 @@ header {
 
 .comic {
     h2,
-    h4 {
+    h4,
+    .key {
         color: #003F5E;
+    }
+    .advertisement h5,
+    .price .values,
+    .sale_date .values {
+        color: #555555;
     }
     .comic_top {
         .info {
@@ -196,6 +202,38 @@ header {
     }
     .comic_bottom {
         background-color: #F6F6F6;
+        font-weight: 500;
+        h4,
+        .artists,
+        .writers,
+        .series,
+        .price,
+        .sale_date {
+            border-bottom: 1px solid #E3E3E3;
+        }
+        h4 {
+            margin: 0;
+            padding: 1rem 0;
+        }
+        .artists,
+        .writers,
+        .series,
+        .price,
+        .sale_date {
+            padding: 0.5rem 0;
+        }
+        .key {
+            width: 150px;
+        }
+        .values {
+            width: calc(100% - 150px);
+        }
+        .artists>.values,
+        .writers>.values,
+        .series>.values {
+            color: #00BAE6;
+            line-height: 1rem;
+        }
     }
 }
 

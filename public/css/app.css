@@ -13402,8 +13402,14 @@ header .header-bottom nav .searchbar .icon {
 }
 
 .comic h2,
-.comic h4 {
+.comic h4,
+.comic .key {
   color: #003F5E;
+}
+.comic .advertisement h5,
+.comic .price .values,
+.comic .sale_date .values {
+  color: #555555;
 }
 .comic .comic_top .info {
   border-bottom: 2px solid #357739;
@@ -13428,6 +13434,38 @@ header .header-bottom nav .searchbar .icon {
 }
 .comic .comic_bottom {
   background-color: #F6F6F6;
+  font-weight: 500;
+}
+.comic .comic_bottom h4,
+.comic .comic_bottom .artists,
+.comic .comic_bottom .writers,
+.comic .comic_bottom .series,
+.comic .comic_bottom .price,
+.comic .comic_bottom .sale_date {
+  border-bottom: 1px solid #E3E3E3;
+}
+.comic .comic_bottom h4 {
+  margin: 0;
+  padding: 1rem 0;
+}
+.comic .comic_bottom .artists,
+.comic .comic_bottom .writers,
+.comic .comic_bottom .series,
+.comic .comic_bottom .price,
+.comic .comic_bottom .sale_date {
+  padding: 0.5rem 0;
+}
+.comic .comic_bottom .key {
+  width: 150px;
+}
+.comic .comic_bottom .values {
+  width: calc(100% - 150px);
+}
+.comic .comic_bottom .artists > .values,
+.comic .comic_bottom .writers > .values,
+.comic .comic_bottom .series > .values {
+  color: #00BAE6;
+  line-height: 1rem;
 }
 
 .banner {
