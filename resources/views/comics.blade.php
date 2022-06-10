@@ -24,13 +24,7 @@
     </section>
     <div class="banner">
         <div class="container">
-            <div class="row row-cols-6 py-5">
-                <div class="col text-center">
-                    <div class="wrapper">
-                        <img src="{{ asset('../img/buy-comics-digital-comics.png') }}" alt="immagine" />
-                        <div class="text">digital comics</div>
-                    </div>
-                </div>
+            <div class="row row-cols-5 py-5">
                 <div class="col text-center">
                     <div class="wrapper">
                         <img src="{{ asset('../img/buy-comics-digital-comics.png') }}" alt="immagine" />

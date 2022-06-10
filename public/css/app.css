@@ -13313,7 +13313,8 @@ header .header-bottom nav .logo {
 header .header-bottom nav ul li a {
   color: #303030;
   text-transform: uppercase;
-  padding: 3rem 1rem;
+  padding: 3rem 0;
+  margin: 0 1rem;
   height: 100%;
   border-bottom: 6px solid transparent;
   font-weight: bold;
@@ -13361,6 +13362,7 @@ header .header-bottom nav .searchbar .icon {
 
 h2 {
   display: inline-block;
+  font-size: 2rem;
   color: white;
   background-color: #0282F9;
   padding: 0.75rem 2rem;
@@ -13417,7 +13419,6 @@ h2 {
 }
 .banner .wrapper .text {
   text-transform: uppercase;
-  font-size: 0.8rem;
 }
 
 footer .footer-top {

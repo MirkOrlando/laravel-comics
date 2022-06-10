@@ -15,6 +15,11 @@
                                 <li><a href="#">Videos</a></li>
                                 <li><a href="#">News</a></li>
                             </ul>
+                            <h4>Shop</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Shop DC</a></li>
+                                <li><a href="#">Shop DC Collectibles</a></li>
+                            </ul>
                         </div>
                         <div class="col">
                             <h4>dc</h4>
@@ -40,13 +45,6 @@
                                 <li><a href="#">DC Kids</a></li>
                                 <li><a href="#">DC Universe</a></li>
                                 <li><a href="#">DC Power Visa</a></li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <h4>Shop</h4>
-                            <ul class="list-unstyled">
-                                <li><a href="#">Shop DC</a></li>
-                                <li><a href="#">Shop DC Collectibles</a></li>
                             </ul>
                         </div>
                     </div>
