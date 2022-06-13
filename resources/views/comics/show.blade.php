@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('page-title', $comic['title'])
+
+
 @section('custom-css')
     <link rel="stylesheet" href="{{ asset('css/comic_show.css') }}">
 @endsection
@@ -52,9 +55,9 @@
                             <div class="key">Art by:</div>
                             <div class="values">
                                 @forelse ($comic['artists'] as $artist)
-                                    <span class="value">{{ $artist }}</span>
+                                    <a href="#" class="value">{{ $artist }}</a>
                                 @empty
-                                    nothing to show
+                                    N/A
                                 @endforelse
                             </div>
                         </div>
@@ -62,9 +65,9 @@
                             <div class="key">Written by:</div>
                             <div class="values">
                                 @forelse ($comic['writers'] as $writer)
-                                    <span class="value">{{ $writer }}</span>
+                                    <a href="#" class="value">{{ $writer }}</a>
                                 @empty
-                                    nothing to show
+                                    N/A
                                 @endforelse
                             </div>
                         </div>
@@ -75,7 +78,7 @@
                         <div class="series d-flex align-items-center">
                             <div class="key">Series:</div>
                             <div class="values">
-                                <span class="value text-uppercase">{{ $comic['series'] }}</span>
+                                <a href="#" class="value text-uppercase">{{ $comic['series'] }}</a>
                             </div>
                         </div>
                         <div class="price d-flex align-items-center">
@@ -87,7 +90,8 @@
                         <div class="sale_date d-flex align-items-center">
                             <div class="key">Pn Sale Date:</div>
                             <div class="values">
-                                <span class="value">{{ $comic['sale_date'] }}</span>
+                                <span
+                                    class="value">{{ DateTime::createFromFormat('Y-d-m', $comic['sale_date'])->format('M d Y') }}</span>
                             </div>
                         </div>
 

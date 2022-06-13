@@ -134,10 +134,13 @@ $lightestColor: white;
         padding-bottom: 0rem !important;
         border-right: 1px solid #E3E3E3;
         .col {
+            width: calc(100%/4) !important;
+            &:last-child {
+                display: none;
+            }
             .wrapper {
                 width: 100%;
-                padding-top: 1rem !important;
-                padding-bottom: 1rem !important;
+                padding: 1rem !important;
                 border-left: 1px solid #E3E3E3;
                 display: flex;
                 justify-content: space-between;
